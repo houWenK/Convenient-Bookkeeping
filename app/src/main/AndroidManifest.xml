@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.houwenke.tally">
+
+    <application
+        android:name="com.houwenke.tally.UniteApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.houwenke.tally.MonthChartActivity"></activity>
+        <activity android:name="com.houwenke.tally.SettingActivity" />
+        <activity android:name="com.houwenke.tally.HistoryActivity" />
+        <activity android:name="com.houwenke.tally.AboutActivity" />
+        <activity android:name="com.houwenke.tally.SearchActivity" />
+        <activity android:name="com.houwenke.tally.RecordActivity" />
+        <activity android:name="com.houwenke.tally.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
